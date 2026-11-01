@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-27",
+  "priority": [
+    "Japanese ASR",
+    "English ASR",
+    "Chinese-English bidirectional MT",
+    "Chinese-Japanese bidirectional MT",
+    "general multilingual",
+    "German",
+    "French"
+  ],
+  "report": "docs/priority-caption-results-2026-10-27.md",
+  "alignedTranslationReport": "docs/priority-translation-comparison-2026-10-27.md",
+  "evidenceLab": "build\\priority-caption-20261026",
+  "counts": {
+    "asrFreshProcesses": 85,
+    "asrPacedAudioSeconds": 1041.4661875,
+    "translationRequests": 104,
+    "originalAudioFiles": 32,
+    "derivedAudioFiles": 9,
+    "originalJapanese": 20,
+    "originalEnglish": 12,
+    "originalAudioSeconds": 231.8091875,
+    "derivedAudioSeconds": 301.0818125
+  },
+  "productionChange": "No baseline file changed; research artifacts only.",
+  "measured": [
+    {
+      "model": "Moonshine v2 Tiny Japanese",
+      "role": "ja ASR",
+      "modelBytes": 32319961,
+      "decision": "Preferred low-resource ASR candidate on current machine; film/TV and singing quality still limited."
+    },
+    {
+      "model": "Moonshine v2 Small Japanese",
+      "role": "ja ASR",
+      "modelBytes": 121803780,
+      "decision": "Mixed quality gain, about 3x CPU and much more memory; retain comparison option, not current default."
+    },
+    {
+      "model": "Moonshine v2 Tiny English",
+      "role": "en ASR",
+      "modelBytes": 45233659,
+      "decision": "Response-speed option."
+    },
+    {
+      "model": "Moonshine v2 Small English",
+      "role": "en ASR",
+      "modelBytes": 142300974,
+      "decision": "One-second updates are a quality option; higher delay/CPU/memory, joined playback remains untested."
+    },
+    {
+      "model": "LiquidAI/LFM2.5-350M",
+      "role": "generic instruction model tested as MT",
+      "quantization": "Q8_0",
+      "modelBytes": 379217632,
+      "sha256": "be036a757295e550098b85e13f6af2735d0fa73b41e1156a40c7d8e8e32a5766",
+      "birthEvidence": "March 2026 author announcement, extended 10T to 28T pretraining and multi-stage RL.",
+      "sources": {
+        "hf": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF",
+        "modelscope": "https://modelscope.cn/models/LiquidAI/LFM2.5-350M-GGUF"
+      },
+      "decision": "Reject this configuration as default subtitle MT due to critical semantic errors."
+    },
+    {
+      "model": "Index-Translate-2B",
+      "role": "zh/en/ja MT",
+      "quantization": "Q4_K_M",
+      "decision": "Midrange-plus optional tier; complete-text median 4.274 s in new 32-case matrix; residual semantic errors."
+    },
+    {
+      "model": "Hy-MT2-1.8B",
+      "role": "zh/en/ja MT",
+      "quantization": "Q4_K_M",
+      "decision": "Midrange-plus optional tier; complete-text median 3.758 s in new 32-case matrix; residual translation issues."
+    }
+  ],
+  "notMeasured": [
+    {
+      "model": "LiquidAI/LFM2.5-230M",
+      "role": "generic instruction model",
+      "birthEvidence": "June 2026 announcement: 19T pretraining, distillation SFT, DPO and multi-domain RL.",
+      "q8Bytes": 246598496,
+      "q8HFModelscopeMetadataSha256Match": true,
+      "decision": "Metadata verified; not a tested MT recommendation."
+    },
+    {
+      "model": "cyberagent/CAT-Translate-0.8b",
+      "role": "English-Japanese bidirectional specialized MT",
+      "birthEvidence": "2025-12 repository commit contains no weights; 2026-02-02 commit contains current 1,586,121,792-byte weights with SHA3375cdd5...; June commits are README changes.",
+      "authorWeightsSha256": "3375cdd5cb11dbc5036df4902cf20afbc5ffa560f51bb138bd4ffa8e8c0b10f9",
+      "quantizationCandidate": "mradermacher community Q4_K_M, not author GGUF",
+      "downloadedBytes": 14680064,
+      "expectedBytes": 528205184,
+      "decision": "Worth further EN/JA testing; download incomplete, no inference, no Chinese support claim."
+    }
+  ],
+  "excludedNewnessOrResourceClaims": [
+    {
+      "model": "NiuTrans LMT-60",
+      "reason": "2025 model repositories; 2026 maintenance alone is not evidence of new training."
+    },
+    {
+      "model": "North Small Translate",
+      "reason": "2026 release but 218B total / 25B active, author minimum B200 or multiple H100; outside current lab hardware."
+    },
+    {
+      "model": "IWSLT 2026 Qwen2-Audio compressed systems",
+      "reason": "2024 8.2B foundation and compression; task evaluation excludes speed, cannot infer low-latency suitability."
+    }
+  ],
+  "limitations": [
+    "Small deterministic public subsets; no blind corpus-wide evaluation or guaranteed disjointness from training data.",
+    "Japanese surface edit counts retain kanji/kana and numeral differences. English literal WER retains abbreviation spelling differences.",
+    "Derived streams concatenate public utterances and inserted silences; they are not natural conversations or additional independent samples.",
+    "ASR timing is paced native C API in isolated fresh processes, not a joined video playback and subtitle overlay test.",
+    "MT timing starts with complete text already available and is not speech-to-translated-subtitle latency.",
+    "Memory is whole probe/server process; private bytes and working set are different measures and must not be added.",
+    "The CAT community GGUF transfer did not complete; no CAT performance or quality result is reported."
+  ]
+}

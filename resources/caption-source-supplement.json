@@ -1,0 +1,444 @@
+{
+  "24ffdc19ba9aaed5a6a9beaede1e087745217d82425cf4041bca0c696661801e": [
+    {
+      "provider": "modelscope",
+      "url": "https://modelscope.cn/api/v1/models/manyeyes/k2transducer-zipformer-ctc-large-zh-onnx-online-yuekai-20250630/repo?Revision=d667cc0df971982d160feed06417bc03972d7d79&FilePath=model.int8.onnx"
+    },
+    {
+      "provider": "modelscope",
+      "url": "https://www.modelscope.cn/api/v1/models/manyeyes/k2transducer-zipformer-ctc-large-zh-onnx-online-yuekai-20250630/repo?Revision=d667cc0df971982d160feed06417bc03972d7d79&FilePath=model.int8.onnx"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/csukuangfj/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/resolve/f29132af655b91f258800df19c5b5d9b9281a5cd/model.int8.onnx?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/resolve/f29132af655b91f258800df19c5b5d9b9281a5cd/model.int8.onnx?download=true"
+    }
+  ],
+  "6193c7ea1c96d0d9a1e9652789b40d13a8a913b434a5451e93158f5a09fd6652": [
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/csukuangfj/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/resolve/f29132af655b91f258800df19c5b5d9b9281a5cd/tokens.txt?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/resolve/f29132af655b91f258800df19c5b5d9b9281a5cd/tokens.txt?download=true"
+    }
+  ],
+  "f2ab7a5deb02717801f6a5b26c751b42f8a2db891b07f5b095e6da7442081448": [
+    {
+      "provider": "github",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30.tar.bz2"
+    },
+    {
+      "provider": "github-api",
+      "url": "https://api.github.com/repos/k2-fsa/sherpa-onnx/releases/assets/268558919"
+    }
+  ],
+  "25f302e6203028e487d1b1f93db6fe5baf587373498062190160de70e0c4ae58": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/adapter.ort"
+    }
+  ],
+  "170ee70aeb3c82fd067193add0d1a8619cd16d4de80a5e0239dac12d956e8575": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/cross_kv.ort"
+    }
+  ],
+  "ccc047610727f9fe039212a0b2370a7f970e80776376a229181a76998ff5af20": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/decoder_kv.ort"
+    }
+  ],
+  "6420c180be55732d10db7a85f8966237bbbeee3b47addab4790ed81c22dde2cf": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/encoder.ort"
+    }
+  ],
+  "c6fdee4c81d421617b9571e43cf952dc1e7e4f45d0cb1dbf13104ee8af4ffd45": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/frontend.model.ort"
+    }
+  ],
+  "673a7177f030da9ce948daa1af44ec5425b6f0825348aacb80f6a01c18e42a07": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/frontend.weights.ort"
+    }
+  ],
+  "d31afd7c2dd5ee9ae3fa232312c5b42cb3e4fe1c6e9c53d885f2bea63023790a": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/streaming_config.json"
+    },
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/streaming_config.json"
+    }
+  ],
+  "9f2599f20c3a9b03d79dbe122e443647c6589ce8e5c73e65e5c5d6f73485d5de": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/tokenizer.bin"
+    }
+  ],
+  "22ecc949e146c49667fda28d102d4e30749a107dc88a396292aa8f277ef1347c": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/adapter.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/adapter.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/adapter.ort?download=true"
+    }
+  ],
+  "143a36667b8d05fd9d04e8c337b7ee121f37ef299aea6b3d82bdb3d3401950b4": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/cross_kv.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/cross_kv.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/cross_kv.ort?download=true"
+    }
+  ],
+  "8852553f312adb6c9aa4d17418015049b30f412209ee569d336548c0044627de": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/decoder_kv.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/decoder_kv.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/decoder_kv.ort?download=true"
+    }
+  ],
+  "a8414e1a5dedf9f2093d7680601dd8a9b0433e7020260eafe0e370ead91134ca": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/encoder.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/encoder.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/encoder.ort?download=true"
+    }
+  ],
+  "5121b561417b638afce0c6c31b760e37c93cf97f80d9b0031aad1fe7b6f25d61": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/frontend.model.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/frontend.model.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/frontend.model.ort?download=true"
+    }
+  ],
+  "217da24ac6f522ebf02da8ef288e77d1ac68d50d4a6821433182e4fbf4204bbd": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/frontend.weights.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/frontend.weights.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/frontend.weights.ort?download=true"
+    }
+  ],
+  "74fe5ddebd63b17caf59e8a3b18c17547ff7bce1642050edbb1c3962674f8950": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/streaming_config.json"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_07_30/streaming_config.json?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_07_30/streaming_config.json?download=true"
+    }
+  ],
+  "6884b35fd6377d4c4d32336a0bc152f36b64d1e45b6503683cdc238250a8472d": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/tokenizer.bin"
+    },
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/tokenizer.bin"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/tokenizer.bin?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/tiny-streaming-en/quantized_26_08_21/tokenizer.bin?download=true"
+    }
+  ],
+  "c665f742364febad597cc9ac1e0b341ffbee0e24a1466e2f3bde95e6e4771762": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/adapter.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/adapter.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/adapter.ort?download=true"
+    }
+  ],
+  "e2d3417144e9514055ebfefe8dcc4c0a55a55adcb8530435844c75c53e352bf6": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/cross_kv.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/cross_kv.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/cross_kv.ort?download=true"
+    }
+  ],
+  "1a05465b1dd955858dfcbee039c0020fb5dd982b0f5094c34e61735d518d771b": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/decoder_kv.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/decoder_kv.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/decoder_kv.ort?download=true"
+    }
+  ],
+  "2d4d973e91e8aca08c51e7e7efa28a46ab265b63d809d5294d18b86bcd85b993": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/encoder.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/encoder.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/encoder.ort?download=true"
+    }
+  ],
+  "09b1210ae30dc5f0f3e45f0ebab914c254741323114f53fbbe5ae62cca35058f": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/frontend.model.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/frontend.model.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/frontend.model.ort?download=true"
+    }
+  ],
+  "7ef97521bd4bad3928f5bb6808586f4fcc6e92bd5990394112eed7d4052ec338": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/frontend.weights.ort"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/frontend.weights.ort?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_08_21/frontend.weights.ort?download=true"
+    }
+  ],
+  "26f02b6afb22d60871a5efd85c3d38e569cc0ddb6c5eb6e93d3260152ae8a47a": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/streaming_config.json"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_07_30/streaming_config.json?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/moonshine-ai/moonshine-voice-assets/resolve/0bf2f2e5aff22e6fbba4300b00a4e00bbc4f8aae/model/small-streaming-en/quantized_26_07_30/streaming_config.json?download=true"
+    }
+  ],
+  "23b91142a35cfbc533a7f03ad8387d0b6d32856b465c6fe7a14ede44a254a345": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/adapter.ort"
+    }
+  ],
+  "25e6d9d4f16569c2ede7e23a381fe7c60cc4b0f141adc88580557d4530634f17": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/cross_kv.ort"
+    }
+  ],
+  "768b1464074fc4fb7327e8b863fc13dcd12cb7bbe8d8e9428fa7292f7fd9ca6e": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/decoder_kv.ort"
+    }
+  ],
+  "74610b818058e396f4b9d9ffd730cf8e36772122464d989dd3011dfa76bd6baf": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/encoder.ort"
+    }
+  ],
+  "4445bb4c2f41b0dd993999e06dc9367a0dde0d42a2e777116e7d93be102dc43d": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/frontend.model.ort"
+    }
+  ],
+  "233fda61d583403bbf13ea71b6ba2335fdf57eac71be85a97dcbb90a6c2f4186": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/frontend.weights.ort"
+    }
+  ],
+  "5725ad3771a1339802f8cebeda0fa8f7723f5282b1ee726c2544774d7399b9a7": [
+    {
+      "provider": "moonshine",
+      "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/tokenizer.bin"
+    }
+  ],
+  "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699": [
+    {
+      "provider": "modelscope",
+      "url": "https://modelscope.cn/api/v1/models/Tencent-Hunyuan/Hy-MT2-1.8B-GGUF/repo?Revision=ef1d40b8b315575d30d1eb6579996130b8fc0bb2&FilePath=Hy-MT2-1.8B-Q4_K_M.gguf"
+    },
+    {
+      "provider": "modelscope",
+      "url": "https://www.modelscope.cn/api/v1/models/Tencent-Hunyuan/Hy-MT2-1.8B-GGUF/repo?Revision=ef1d40b8b315575d30d1eb6579996130b8fc0bb2&FilePath=Hy-MT2-1.8B-Q4_K_M.gguf"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q4_K_M.gguf?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q4_K_M.gguf?download=true"
+    }
+  ],
+  "bf563dffb502a230ae06c9dc455b54cbc079e7e0bc270cd4d6191209b28d175d": [
+    {
+      "provider": "github",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11889/llama-b11889-bin-win-cpu-x64.zip"
+    },
+    {
+      "provider": "github-api",
+      "url": "https://api.github.com/repos/ggml-org/llama.cpp/releases/assets/676447626"
+    }
+  ],
+  "044b313d29342bd3b2c77cbb64023ca0d209bd9b3247763f9d162767ef2d746a": [
+    {
+      "provider": "modelscope",
+      "url": "https://modelscope.cn/api/v1/models/IndexTeam/Index-Translate-2B-GGUF/repo?Revision=00c6a82331c522b2e3a6c2f8da8586506f0244d5&FilePath=Index-Translate-2B.Q4_K_M.gguf"
+    },
+    {
+      "provider": "modelscope",
+      "url": "https://www.modelscope.cn/api/v1/models/IndexTeam/Index-Translate-2B-GGUF/repo?Revision=00c6a82331c522b2e3a6c2f8da8586506f0244d5&FilePath=Index-Translate-2B.Q4_K_M.gguf"
+    },
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/IndexTeam/Index-Translate-2B-GGUF/resolve/3a0eca6ce931d88d00614d427ab3ed8ff0743902/Index-Translate-2B.Q4_K_M.gguf?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/IndexTeam/Index-Translate-2B-GGUF/resolve/3a0eca6ce931d88d00614d427ab3ed8ff0743902/Index-Translate-2B.Q4_K_M.gguf?download=true"
+    }
+  ],
+  "563fdf20fa548271815f37d5cd9a335e26cb3e49a7aa00d976b582a230ef828b": [
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/config.json?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/config.json?download=true"
+    }
+  ],
+  "985b9765ae200b3bf012074904e6317a06965e9d593d5394530a331c3c05aac4": [
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/encoder.onnx?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/encoder.onnx?download=true"
+    }
+  ],
+  "1dac4a88a9b43c346a07810fa60f5cd8d8f9ab1c81cee55d8d96bf7415b3b7b7": [
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/cross_kv.onnx?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/cross_kv.onnx?download=true"
+    }
+  ],
+  "802ce8c28dc01cbfd5ad72f628b46cc83208f4bab02f34586c449e93403b092e": [
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/decoder_step.onnx?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/i8/decoder_step.onnx?download=true"
+    }
+  ],
+  "8cb01fbff721c47daa66f433080b18b3ec7c866630da7dcc72ef3f4d14d25c3c": [
+    {
+      "provider": "hf-mirror",
+      "url": "https://hf-mirror.com/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/tokenizer.json?download=true"
+    },
+    {
+      "provider": "huggingface",
+      "url": "https://huggingface.co/telecomadm1145/NanoSakura-0.3B-Onnx/resolve/a46f2ed2dd1b8a601f0d8f5cb381804e745fae72/tokenizer.json?download=true"
+    }
+  ]
+}

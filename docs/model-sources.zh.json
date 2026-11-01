@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Verified delivery specification; not yet consumed by the production player",
+  "modelId": "zipformer-ctc-zh-int8-2025-06-30",
+  "installedDirectoryName": "sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30",
+  "task": "streaming-asr",
+  "languages": ["zh"],
+  "translation": false,
+  "runtime": "sherpa-onnx C API 1.13.8 / ONNX Runtime 1.28.2 CPU",
+  "files": [
+    {
+      "name": "model.int8.onnx",
+      "bytes": 162290887,
+      "sha256": "24ffdc19ba9aaed5a6a9beaede1e087745217d82425cf4041bca0c696661801e",
+      "sources": [
+        {
+          "provider": "huggingface",
+          "publisher": "csukuangfj (Sherpa maintainer conversion)",
+          "revision": "f29132af655b91f258800df19c5b5d9b9281a5cd",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/resolve/f29132af655b91f258800df19c5b5d9b9281a5cd/model.int8.onnx?download=true",
+          "fullDownloadVerified": true
+        },
+        {
+          "provider": "modelscope",
+          "publisher": "manyeyes (community mirror)",
+          "revision": "d667cc0df971982d160feed06417bc03972d7d79",
+          "url": "https://modelscope.cn/api/v1/models/manyeyes/k2transducer-zipformer-ctc-large-zh-onnx-online-yuekai-20250630/repo?Revision=d667cc0df971982d160feed06417bc03972d7d79&FilePath=model.int8.onnx",
+          "fullDownloadVerified": true,
+          "note": "Only this exact weight is equivalent; the mirror's tokens.txt differs"
+        }
+      ]
+    },
+    {
+      "name": "tokens.txt",
+      "bytes": 20628,
+      "sha256": "6193c7ea1c96d0d9a1e9652789b40d13a8a913b434a5451e93158f5a09fd6652",
+      "sources": [
+        {
+          "provider": "huggingface",
+          "revision": "f29132af655b91f258800df19c5b5d9b9281a5cd",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/resolve/f29132af655b91f258800df19c5b5d9b9281a5cd/tokens.txt?download=true",
+          "fullDownloadVerified": true
+        }
+      ]
+    }
+  ],
+  "archiveFallback": {
+    "provider": "github",
+    "publisher": "k2-fsa/sherpa-onnx",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30.tar.bz2",
+    "bytes": 127965713,
+    "sha256": "f2ab7a5deb02717801f6a5b26c751b42f8a2db891b07f5b095e6da7442081448",
+    "fullDownloadVerified": false,
+    "metadataVerified": true,
+    "thisHostFailure": "TLS/read timeout",
+    "activationRequirement": "Verify archive and both extracted files against the same expected file identities before activation"
+  },
+  "activationPolicy": "Stage complete files in a sibling temporary directory; verify every required file; activate the entire model and tokens pair atomically; preserve the previous verified version on any failure or cancellation",
+  "licenseStatus": "Weight license must be confirmed separately from Sherpa code license; upstream original model card currently requires sign-in to review conditions"
+}

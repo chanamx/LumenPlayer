@@ -1,0 +1,12 @@
+# 2026 model generation and delivery verification
+
+User scope: continue multi-source verification and find strong, efficient multilingual live-caption and translation models. Prefer model checkpoints newly released or materially trained from 2026 onward. A repository update, quantization, runtime port, paper acceptance, or filename date is insufficient evidence of a new model generation.
+
+1. Use Web Composite Search and Sn Search Code for discovery; read author model cards, releases, papers and checkpoint histories to establish lineage and actual release dates.
+2. Separate ASR, text translation, direct speech translation, and speech synthesis. Retain older tested models only as performance baselines.
+3. Verify available authoritative download channels, immutable revisions, exact byte counts and upstream hashes. Preserve partial/failed source results and never accept incomplete weights.
+4. Prioritize a small number of candidates with realistic Windows CPU inference routes. Consult Context7 for API/runtime documentation before new code. Test serially with memory/timeout guards; do not overlap compilation, encoding or inference.
+5. Record model loading, sustained inference, first output and final output latency, process memory, CPU use, output text and cleanup. Do not infer accuracy from size or author GPU throughput, or claim a native fixture proves the full player GUI lifecycle.
+6. Save new evidence under build/models-nextgen-20261026, preserving prior finalized verification artifacts and the published application. Deliver a sourced Chinese report with eligibility, measured results, remaining limitations and concrete preferred candidates.
+
+Completed 2026-10-26: full Chinese GitHub archive and canonical model/token pair verified, five HF/ModelScope metadata pairs checked, four new large weight files and two new Moonshine packs fully validated, 40 successful ASR measurement processes plus an official CLI check, and 155 translation requests over 20 independent texts. Additional controls cover current ORT reuse for four Tiny languages, 60-second repeated audio, no-repack memory tradeoffs, and a 40-request Index cache-limited run. The published 28-file baseline remains unchanged and owned test processes have exited. Deliverables: docs/nextgen-caption-models-2026-10-26.md, docs/research-caption-candidates-2026-10-26.json, and build/models-nextgen-20261026/measured-summary.json. These are component measurements; full player ASR-to-translation timing and broad corpus accuracy are not claimed.

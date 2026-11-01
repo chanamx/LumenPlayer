@@ -1,0 +1,487 @@
+{
+  "scope": "Research and candidate delivery catalog only; not consumed by the current player or formal installer",
+  "date": "2026-10-26",
+  "selectionRule": "New 2026+ model generations or materially new training, not repository maintenance, conversion or quantization dates alone",
+  "existingChineseDeliveryProof": "build/models-nextgen-20261026/source-summary.json",
+  "previousModelAndInstallerProof": "docs/verification-and-model-options-2026-10-26.md",
+  "candidates": [
+    {
+      "id": "moonshine-v2-tiny-zh",
+      "task": "streaming-asr",
+      "inputLanguage": "zh",
+      "generationYear": 2026,
+      "generationEvidence": "https://arxiv.org/abs/2602.12241",
+      "dateCaveat": "quantized_26_08_* identifies a packaging revision, not the training date",
+      "nativeArchitecture": 2,
+      "downloadManifest": {
+        "groups": [
+          {
+            "base_url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24",
+            "files": [
+              {
+                "name": "adapter.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/adapter.ort",
+                "size": 1318472,
+                "checksum": "hr7j6g==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "cross_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/cross_kv.ort",
+                "size": 1288120,
+                "checksum": "fiGyHw==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "decoder_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/decoder_kv.ort",
+                "size": 19717336,
+                "checksum": "rr9O2A==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "encoder.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/encoder.ort",
+                "size": 7772792,
+                "checksum": "BHPY3w==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.model.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/frontend.model.ort",
+                "size": 27608,
+                "checksum": "4gF+xg==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.weights.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/frontend.weights.ort",
+                "size": 2090728,
+                "checksum": "Kv1kYQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "streaming_config.json",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/streaming_config.json",
+                "size": 509,
+                "checksum": "wH/VeA==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "tokenizer.bin",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-zh/quantized_26_08_24/tokenizer.bin",
+                "size": 74587,
+                "checksum": "nQJxPQ==",
+                "checksum_type": "crc32c"
+              }
+            ]
+          }
+        ]
+      },
+      "currentPlayerOnnxRuntimeAbiTested": "1.28.2",
+      "selection": "keep existing Chinese default: sample quality regression",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "moonshine-v2-tiny-en",
+      "task": "streaming-asr",
+      "inputLanguage": "en",
+      "generationYear": 2026,
+      "generationEvidence": "https://arxiv.org/abs/2602.12241",
+      "dateCaveat": "quantized_26_08_* identifies a packaging revision, not the training date",
+      "nativeArchitecture": 2,
+      "downloadManifest": {
+        "groups": [
+          {
+            "base_url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21",
+            "files": [
+              {
+                "name": "adapter.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/adapter.ort",
+                "size": 1319664,
+                "checksum": "kwQ+Bw==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "cross_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/cross_kv.ort",
+                "size": 1287544,
+                "checksum": "76wzFQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "decoder_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/decoder_kv.ort",
+                "size": 32583720,
+                "checksum": "KJjeNw==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "encoder.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/encoder.ort",
+                "size": 7675440,
+                "checksum": "UjAIpQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.model.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/frontend.model.ort",
+                "size": 23344,
+                "checksum": "aM/+wQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.weights.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/frontend.weights.ort",
+                "size": 2093464,
+                "checksum": "WYZ7EQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "streaming_config.json",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/streaming_config.json",
+                "size": 509,
+                "checksum": "HGL0Ug==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "tokenizer.bin",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/tokenizer.bin",
+                "size": 249974,
+                "checksum": "B7s10Q==",
+                "checksum_type": "crc32c"
+              }
+            ]
+          }
+        ]
+      },
+      "currentPlayerOnnxRuntimeAbiTested": "1.28.2",
+      "selection": "conditional language-specific integration candidate",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "moonshine-v2-tiny-ja",
+      "task": "streaming-asr",
+      "inputLanguage": "ja",
+      "generationYear": 2026,
+      "generationEvidence": "https://arxiv.org/abs/2602.12241",
+      "dateCaveat": "quantized_26_08_* identifies a packaging revision, not the training date",
+      "nativeArchitecture": 2,
+      "downloadManifest": {
+        "groups": [
+          {
+            "base_url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23",
+            "files": [
+              {
+                "name": "adapter.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/adapter.ort",
+                "size": 1318472,
+                "checksum": "obzOjg==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "cross_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/cross_kv.ort",
+                "size": 1288120,
+                "checksum": "gbYCsw==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "decoder_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/decoder_kv.ort",
+                "size": 19717336,
+                "checksum": "Mc/YqQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "encoder.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/encoder.ort",
+                "size": 7772792,
+                "checksum": "ZS0TPg==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.model.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/frontend.model.ort",
+                "size": 27608,
+                "checksum": "BTpcfg==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.weights.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/frontend.weights.ort",
+                "size": 2093288,
+                "checksum": "T4l/3Q==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "streaming_config.json",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/streaming_config.json",
+                "size": 509,
+                "checksum": "wH/VeA==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "tokenizer.bin",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-ja/quantized_26_08_23/tokenizer.bin",
+                "size": 101836,
+                "checksum": "M94Ogg==",
+                "checksum_type": "crc32c"
+              }
+            ]
+          }
+        ]
+      },
+      "currentPlayerOnnxRuntimeAbiTested": "1.28.2",
+      "selection": "conditional language-specific integration candidate",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "moonshine-v2-tiny-de",
+      "task": "streaming-asr",
+      "inputLanguage": "de",
+      "generationYear": 2026,
+      "generationEvidence": "https://arxiv.org/abs/2602.12241",
+      "dateCaveat": "quantized_26_08_* identifies a packaging revision, not the training date",
+      "nativeArchitecture": 2,
+      "downloadManifest": {
+        "groups": [
+          {
+            "base_url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24",
+            "files": [
+              {
+                "name": "adapter.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/adapter.ort",
+                "size": 1318472,
+                "checksum": "Q5RVow==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "cross_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/cross_kv.ort",
+                "size": 1288120,
+                "checksum": "Y8sggQ==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "decoder_kv.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/decoder_kv.ort",
+                "size": 19717336,
+                "checksum": "0Btj7Q==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "encoder.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/encoder.ort",
+                "size": 7772792,
+                "checksum": "UMxvQg==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.model.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/frontend.model.ort",
+                "size": 23176,
+                "checksum": "jBdx4Q==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "frontend.weights.ort",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/frontend.weights.ort",
+                "size": 2093280,
+                "checksum": "Ljirxw==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "streaming_config.json",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/streaming_config.json",
+                "size": 509,
+                "checksum": "wH/VeA==",
+                "checksum_type": "crc32c"
+              },
+              {
+                "name": "tokenizer.bin",
+                "url": "https://download.moonshine.ai/model/tiny-streaming-de/quantized_26_08_24/tokenizer.bin",
+                "size": 103319,
+                "checksum": "x219Qw==",
+                "checksum_type": "crc32c"
+              }
+            ]
+          }
+        ]
+      },
+      "currentPlayerOnnxRuntimeAbiTested": "1.28.2",
+      "selection": "conditional language-specific integration candidate",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "hymt2",
+      "task": "text-translation",
+      "modelReleaseDate": "2026-05-21",
+      "generationYear": 2026,
+      "generationEvidence": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+      "channels": [
+        {
+          "provider": "huggingface",
+          "repository": "tencent/Hy-MT2-1.8B-GGUF",
+          "revision": "a0c709d9fac510f2c807aa3af52872340dc37a4a",
+          "file": "Hy-MT2-1.8B-Q4_K_M.gguf",
+          "bytes": 1133080448,
+          "sha256": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+        },
+        {
+          "provider": "modelscope",
+          "repository": "Tencent-Hunyuan/Hy-MT2-1.8B-GGUF",
+          "revision": "ef1d40b8b315575d30d1eb6579996130b8fc0bb2",
+          "file": "Hy-MT2-1.8B-Q4_K_M.gguf",
+          "bytes": 1133080448,
+          "sha256": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+        }
+      ],
+      "selection": "quality-oriented candidate; no-repack memory/latency tradeoff measured",
+      "integratedIntoPlayer": false,
+      "measuredProfile": {
+        "tag": "hymt2-q4-no-repack",
+        "threads": 1,
+        "context": 1024,
+        "slots": 1,
+        "repack": false,
+        "requests": 20,
+        "independentTexts": 20
+      }
+    },
+    {
+      "id": "lfm25",
+      "task": "general-text-model-tested-for-translation",
+      "modelReleaseDate": "2026-01-05",
+      "generationYear": 2026,
+      "generationEvidence": "https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai",
+      "channels": [
+        {
+          "provider": "huggingface",
+          "repository": "LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
+          "revision": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+          "file": "LFM2.5-1.2B-Instruct-QAD-Q4_0.gguf",
+          "bytes": 695755488,
+          "sha256": "bb741ebb106d543e9de114b843a3d3d73d51c74b5801e69da2abde821a0cb3e1"
+        },
+        {
+          "provider": "modelscope",
+          "repository": "LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
+          "revision": "308f22f2b2b2fd11f8da6f2b6e05b5c1360dd22c",
+          "file": "LFM2.5-1.2B-Instruct-QAD-Q4_0.gguf",
+          "bytes": 695755488,
+          "sha256": "bb741ebb106d543e9de114b843a3d3d73d51c74b5801e69da2abde821a0cb3e1"
+        }
+      ],
+      "selection": "reject tested quantized variant as default translator: concrete semantic/number errors",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "index",
+      "task": "text-translation",
+      "modelReleaseDate": "2026-09-30",
+      "generationYear": 2026,
+      "generationEvidence": "https://github.com/bilibili/Index-Translate",
+      "channels": [
+        {
+          "provider": "huggingface",
+          "repository": "IndexTeam/Index-Translate-2B-GGUF",
+          "revision": "3a0eca6ce931d88d00614d427ab3ed8ff0743902",
+          "file": "Index-Translate-2B.Q4_K_M.gguf",
+          "bytes": 1312164352,
+          "sha256": "044b313d29342bd3b2c77cbb64023ca0d209bd9b3247763f9d162767ef2d746a"
+        },
+        {
+          "provider": "modelscope",
+          "repository": "IndexTeam/Index-Translate-2B-GGUF",
+          "revision": "00c6a82331c522b2e3a6c2f8da8586506f0244d5",
+          "file": "Index-Translate-2B.Q4_K_M.gguf",
+          "bytes": 1312164352,
+          "sha256": "044b313d29342bd3b2c77cbb64023ca0d209bd9b3247763f9d162767ef2d746a"
+        }
+      ],
+      "selection": "2026-09 multilingual text-translation candidate; native CPU measured with repacking/thinking/prompt caches/context checkpoints disabled; full playback pipeline not yet integrated",
+      "integratedIntoPlayer": false,
+      "measuredProfile": {
+        "tag": "index-q4-bounded",
+        "threads": 1,
+        "context": 1024,
+        "slots": 1,
+        "repack": false,
+        "thinking": false,
+        "cacheRamMiB": 0,
+        "contextCheckpoints": 0,
+        "promptCache": false,
+        "cacheIdleSlots": false,
+        "requests": 40,
+        "independentTexts": 20
+      }
+    },
+    {
+      "id": "qwen3-asr",
+      "task": "asr",
+      "modelReleaseDate": "2026-01",
+      "generationYear": 2026,
+      "generationEvidence": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B",
+      "channels": [
+        {
+          "provider": "huggingface",
+          "repository": "Qwen/Qwen3-ASR-0.6B",
+          "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+          "file": "model.safetensors",
+          "bytes": 1876091704,
+          "sha256": "79d6cbd4c98c7bbffe9db2edac07f56cd6637d0d5944b27f6c2b8353840323ea"
+        },
+        {
+          "provider": "modelscope",
+          "repository": "Qwen/Qwen3-ASR-0.6B",
+          "revision": "3b885f72b1733a6a50dc17a597fb4135c3d656a0",
+          "file": "model.safetensors",
+          "bytes": 1876091704,
+          "sha256": "79d6cbd4c98c7bbffe9db2edac07f56cd6637d0d5944b27f6c2b8353840323ea"
+        }
+      ],
+      "selection": "metadata verified; CPU inference not measured",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "nemotron-3.5",
+      "task": "streaming-asr",
+      "modelReleaseDate": "2026-06-04",
+      "generationYear": 2026,
+      "generationEvidence": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "channels": [
+        {
+          "provider": "huggingface",
+          "repository": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "revision": "ea30d66debe3740a08b573244286791d423d6b3e",
+          "file": "nemotron-3.5-asr-streaming-0.6b.q8_0.gguf",
+          "bytes": 742090464,
+          "sha256": "3fc991d3badad7277c11030a7519832cddaf2057aafed6d4b25147e953a070b1"
+        }
+      ],
+      "localesListed": 40,
+      "localesOutOfBox": 32,
+      "localesRequiringAdaptation": 8,
+      "nativeRuntime": "NeMo-Speech.cpp 0.2.0 Windows CPU",
+      "requestedStateArenaSlots": 1,
+      "selection": "all five requested languages tested; exceeds current low-memory default budget",
+      "integratedIntoPlayer": false
+    },
+    {
+      "id": "qwen3.8-livetranslate",
+      "task": "cloud-streaming-speech-translation",
+      "modelReleaseDate": "2026-09-18",
+      "generationYear": 2026,
+      "generationEvidence": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+      "publishedMetric": {
+        "name": "LAAL",
+        "seconds": 2.3,
+        "owner": "author measurement, not local test"
+      },
+      "openWeightsLocatedInThisResearch": false,
+      "accountRuntimeTested": false,
+      "integratedIntoPlayer": false
+    }
+  ]
+}

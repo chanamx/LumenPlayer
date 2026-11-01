@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "purpose": "Research-only candidate tiers, not the production model selection configuration",
+  "machine": {"cpu": "Intel i5-7200U", "cores": 2, "logicalProcessors": 4, "physicalMemoryGiBApprox": 8},
+  "userPreference": "Index-Translate and comparable 1.8B-2B models are optional for midrange and above hardware; prioritize genuinely new 2026 model training for low-resource live captions.",
+  "tiers": [
+    {"tier": "current-machine-established-asr", "models": ["Existing streaming Chinese CTC", "Moonshine v2 Tiny English/Japanese/German candidates"], "note": "Existing Chinese baseline retained. Moonshine models were measured in prior research; language routing is not yet integrated."},
+    {"tier": "current-machine-experimental-translation", "model": "qvac/TranslatePsy-EuroNano Base INTGEMM", "generation": "New 2026 training; technical announcement 2026-09-02", "languagesMeasured": ["en", "fr", "de"], "direction": "European <-> English; no Chinese or Japanese", "recommendation": "Further evaluate per-direction loading and real dialogue quality; not the five-language default", "oneDirectionBeam4Measured": {"textCompleteMedianMs": 61.0793, "peakPrivateMiB": 519.05078125, "peakWorkingMiB": 367.22265625}, "qualityLimits": ["Idioms mistranslated", "Some grammar and wording errors", "ASR errors propagate"]},
+    {"tier": "current-machine-experimental-minimum", "model": "qvac/TranslatePsy-EuroNano Tiny INTGEMM", "recommendation": "Resource-constrained option with more quality compromises than Base", "oneDirectionBeam4Measured": {"textCompleteMedianMs": 40.2658, "peakPrivateMiB": 396.328125, "peakWorkingMiB": 198.0703125}},
+    {"tier": "midrange-and-above-optional", "models": ["IndexTeam/Index-Translate-2B", "tencent/Hy-MT2-1.8B"], "reason": "User-directed tiering and prior current-machine text translation latency around 3-4 seconds", "hardwareMinimum": "Not established; validate on each target configuration", "sourceReport": "D:/LumenPlayer/docs/nextgen-caption-models-2026-10-26.md"},
+    {"tier": "larger-optional-asr", "model": "nvidia/nemotron-3.5-asr-streaming-0.6b", "reason": "Prior native probe used about 3.47 GiB private commit; ASR only, not translation"},
+    {"tier": "not-selected-tested-variant", "model": "ggml-org/Qwen3.5-0.8B-GGUF Q4_0", "measured": {"textCompleteMedianMsGreedy": 2091.0174, "textCompleteMedianMsAuthor": 2174.6312, "peakWorkingMiB": 669.046875}, "reason": "Critical number, time and negation errors with both tested sampling protocols", "scope": "Does not claim all precisions or the entire Qwen family fail"},
+    {"tier": "not-selected-tested-export", "model": "onnx-community/moonshine-tiny-fr-ONNX int8", "actualTraining": "2026-01 French fine-tune of 2024 Moonshine architecture", "reason": "Poor transcripts in three fixed clips across native and independent ONNX decoding; not native streaming", "scope": "Original FP32 weights not tested"}
+  ],
+  "gaps": ["Low-resource French recognition", "Reliable low-resource Chinese and Japanese translation", "Full in-player ASR+MT with actual video rendering and broader dialogue validation"],
+  "evidence": "D:/LumenPlayer/build/low-resource-models-20261026/measured-summary.json"
+}

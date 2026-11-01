@@ -1,0 +1,19 @@
+# 构建与运行产物
+/build/
+/dist/
+/cache/
+/models/
+*.log
+debug.log
+
+# 用户设置与播放列表
+LumenPlayer.ini
+LumenPlaylists.dat
+
+# 安装包通过 GitHub Releases 分发
+/LumenPlayer-*-setup.exe*
+
+# 模型与临时缓存
+/third_party/models/
+__pycache__/
+*.pyc

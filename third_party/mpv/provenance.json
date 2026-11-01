@@ -1,0 +1,38 @@
+{
+  "archiveUrl": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20261019/mpv-dev-x86_64-20261019-git-6a262d11f6.7z",
+  "archiveSha256": "ca8604754170db6f1b23139d8449782b1ae294a883211131954d30085985f77b",
+  "upstream": "https://mpv.io/installation/",
+  "sourceCommit": "6a262d11f6",
+  "files": [
+    {
+      "path": "libmpv-2.dll",
+      "bytes": 121097728,
+      "sha256": "b57cd73984a458e6f1b2e5021d57825487b9e69ea78c9a4111dc7a90279d9764"
+    },
+    {
+      "path": "libmpv.dll.a",
+      "bytes": 53308,
+      "sha256": "bef1b89f534bc86b33135e1f04fa2d5064b9d48b5de8bc9866665bbf43def793"
+    },
+    {
+      "path": "include/mpv/client.h",
+      "bytes": 86136,
+      "sha256": "3da9b8c61c3fb4e2d76bd248cebf72f3ee830331411b71a76adbd5e05660cc50"
+    },
+    {
+      "path": "include/mpv/render.h",
+      "bytes": 34869,
+      "sha256": "f2550aa29b2e9b20988bd954b4383e9fa05fd9e40d1669fbc6edf2afac603f15"
+    },
+    {
+      "path": "include/mpv/render_gl.h",
+      "bytes": 7328,
+      "sha256": "48662c0ed9872a14dd9e1684105c97f69f94a0414709c254c5d372adc41d2e69"
+    },
+    {
+      "path": "include/mpv/stream_cb.h",
+      "bytes": 9589,
+      "sha256": "188e58b6d14383e15a5dffdc4ecebbdfbf2e412b9c099ff21b571f747a8ce32d"
+    }
+  ]
+}
